@@ -6,6 +6,13 @@ Blog application graphql api with Django and graphene
 
 # Queries
 
+  query {
+    posts {
+      title
+      description
+    }
+  }
+
   query post {
     post(id: 2) {
       title
